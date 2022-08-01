@@ -1,0 +1,6 @@
+2022-07-09T13:05:02.443411 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-07-09T13:05:26.8776826 I/O error on POST request for "http://localhost:8080/login": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-07-09T13:33:05.5495028 500 : [{"timestamp":"2022-07-09T17:33:05.535+00:00","status":500,"error":"Internal Server Error","message":"Please enter a valid account ID.","path":"/request"}]
+2022-07-09T13:33:30.7031556 400 : [{"timestamp":"2022-07-09T17:33:30.698+00:00","status":400,"error":"Bad Request","message":"Required request body is missing: public void com.techelevator.tenmo.controller.TenmoController.updateTransfer(com.techelevator.tenmo.model.Transfer,int) throws exceptions.InvalidAccountException","path":"/update/2"}]
+2022-07-09T13:44:29.0477919 500 : [{"timestamp":"2022-07-09T17:44:29.027+00:00","status":500,"error":"Internal Server Error","message":"Please enter a valid account ID.","path":"/request"}]
+2022-07-09T13:48:18.3293642 401 : [no body]
